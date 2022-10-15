@@ -1,0 +1,97 @@
+.header {
+  height: 460px;
+  width: 100%;
+  background: url('https://templatemo.com/templates/templatemo_539_simple_house/img/simple-house-01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  background-attachment: fixed;
+}
+
+.h-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+}
+
+.h-logo-section {
+  display: flex;
+  flex-direction: row;
+	margin-bottom: 10px;
+}
+
+.h-logo-el {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+
+.logo-el {
+  width: 42px;
+  height: 42px;
+  background: white;
+  position: relative;
+}
+
+.logo-el::after {
+  content: '';
+  width: 42px;
+  height: 42px;
+  border: 2px solid white;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+
+.h-logo-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+  height: 60px;
+  width: 100%;
+}
+
+.h-logo-text h1 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.h-logo-text p {
+	font-size: 1.1rem;
+	font-weight: 400;
+}
+
+.h-nav {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.h-nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: flex-end;
+  padding-right: 20px;
+}
+
+.h-nav ul li {
+  margin: 0px 15px;
+  padding-bottom: 10px;
+}
+
+.h-nav ul li:hover {
+  border-bottom: 1px solid white;
+}
+
+.currentPage {
+  border-bottom: 1px solid white;
+}

@@ -1,0 +1,24 @@
+:root {
+	--dark-green: #2F956D;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 17px;
+	cursor: default;
+}
+
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 17px;
+	color: #626364ba;
+}
+
+.sections {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

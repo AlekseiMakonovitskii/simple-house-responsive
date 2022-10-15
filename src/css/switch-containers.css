@@ -1,0 +1,11 @@
+.pizza-container {
+	display: flex;
+}
+
+.salad-container {
+	display: none;
+}
+
+.noodle-container {
+	display: none;
+}

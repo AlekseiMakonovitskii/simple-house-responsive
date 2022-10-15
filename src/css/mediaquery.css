@@ -1,0 +1,178 @@
+@media (min-width: 800px) {
+	.h-content {
+		flex-direction: row;
+		align-items: flex-end;
+		justify-content: flex-end;
+		padding: 50px 20px;
+	}
+	.h-logo-section  {
+		width: 100%;
+	}
+
+	.s-2-container {
+		width: 70%;
+	}
+
+	.f-container {
+		width: 800px;
+	}
+
+	.f-top {
+		flex-direction: row;
+	}
+
+	.f-img {
+		width: 50%;
+	}
+
+	.f-text {
+		width: 50%;
+		padding-left: 30px;
+	}
+
+	.f-bottom {
+		width: 100%;
+	}
+
+	.about-s-person-cards {
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+
+	}
+
+	.about-s-person-cards-container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+
+	.person-card {
+		width: 530px;
+		flex-direction: row;
+	}
+
+	.adiitional-info-cards-container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	
+	.info-card  {
+		width: 345px;
+	}
+
+	.about-history-section {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.about-history-section-container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: 95%;
+		flex-wrap: nowrap;
+	}
+
+	.about-hs-img {
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-end;
+		width: 100%;
+		margin-right: 10px;
+	}	
+
+	.about-hs-img img {
+		width: 480px;
+		height: 280px;
+	}
+
+	.about-hs-text {
+		padding: 0px 30px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+
+	.about-hs-text p {
+		width: 65%;
+	}
+
+	.contact-whole-section {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.contact-contact-section-container {
+		width: 35%;
+	}
+
+	.contact-whole-seciotion-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		width: 60%;
+	}
+
+	.contact-form-section {
+		width: 50%;
+	}
+
+	.contact-our-address-section {
+		width: 50%;
+		fill: #319966;
+	
+	}
+
+	.container-contact-faq-section {
+		width: 35%;
+		padding-bottom: 50px;
+	}
+
+	details {
+		width: 100%;
+	}
+
+	.contact-map-container {
+		width: 100%;
+	}
+
+	.min-map {
+		display: none;
+	}
+
+	.med-map {
+		display: block;
+		width: 60%;
+	}
+
+	.phone-email-section {
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.our-address-link {
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+}
+
+@media (min-width: 1100px) {
+	.f-container {
+		width: 1100px;
+	}
+}
